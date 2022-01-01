@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+.top{
+	background:#8dc6f2;
+	height: 40px;
+	width: 100%;
+}
+.top ul{
+	float: right;
+	margin-right: 20px;
+
+}
+.top ul li{
+	display: inline-block;
+	line-height: 45px;
+	margin:0 5px;
+}
+.top ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 10px;
+	border-radius: 5px;
+
+}
+.logo{
+	width: 100%;
+	height: 150px;
+	margin-top:-3px; 
+
+}
+.logo h1{
+	text-align: center;
+	font-size: 10vh;
+
+}
+@media screen and (max-width: 700px)
+{
+
+	.top ul{
+	text-align: center;
+	
+
+}
+}

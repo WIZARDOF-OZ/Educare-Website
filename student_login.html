@@ -1,0 +1,240 @@
+
+
+
+<html>
+
+<!-- Mirrored from educareassam.in/student_login.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Dec 2021 17:56:11 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Educare Coaching Institute</title>
+    <link rel="icon" href="pic/edu.png" type="image/gif">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <style>
+
+
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+        .login-box{
+    width: 320px;
+    height: auto;
+    background:#0d3fbd;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+.about{
+  
+  overflow: hidden;
+
+
+  }
+.about button {
+  background-color: #eee;
+  float: left;
+  width: 130px;
+  height: 40px;
+  color:;
+  border: 1px solid;
+  outline: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+/* Change background color of buttons on hover */
+.ab button:hover {
+  background-color: #b4bd0f;
+}
+
+/* Create an active/current tablink class */
+.ab button.active {
+  background-color: #125c06;
+}
+    .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top:;
+}
+  .tabcontent P{
+    font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2%;
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 15px;
+  
+  }
+.tabcontent h3{
+    font-family: Arial, Helvetica, sans-serif;
+
+  color: white;
+  background-color: #870707;
+
+  font-size: 22px;
+  padding: 7px 13px;
+  border-radius: 15px;
+  text-transform: uppercae;
+  }    
+        
+    </style> 
+</head>
+    <body>
+
+<br><br>
+    <div class="login-box">
+    <div class="about">
+
+<button class="tablinks" onclick="openCity(event, 'cu')" id="defaultOpen"><i class='fa fa-book'>Login</i></button>
+  <button class="tablinks" onclick="openCity(event, 'add')"><i class='fa fa-book'></i>Sign Up</button>
+  
+</div>
+
+
+
+
+
+<div id="cu" class="tabcontent">
+
+
+            <form action="#" method="post">
+            <p>Username</p>
+            <input type="text" name="username1" placeholder="">
+            <p>Password</p>
+            <input type="password" name="password2" placeholder="Enter Password">
+            <input type="submit" name="submit" value="Login">    
+            </form>
+
+
+
+</div>
+
+<div id="add" class="tabcontent">
+  
+            <form action="#" method="post">
+            <p>Enter Your Name</p>
+            <input type="text" name="username1" placeholder="" required="">
+             <p>Mobile No.</p>
+            <input type="text" name="mb" placeholder="" required="">
+
+            <p>Password</p>
+            <input type="password" name="password2" placeholder="Enter Password" required="">
+            <input type="submit" name="submit1">    
+            </form>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        </div>
+    <script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+    </body>
+
+<!-- Mirrored from educareassam.in/student_login.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Dec 2021 17:56:16 GMT -->
+</html>
+
+
+
+
+
+
